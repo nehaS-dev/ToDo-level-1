@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.todo_container {
+  min-height: 100vh;
+  border: 1px solid black;
+  border: none;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.todo-heading {
+  color: white;
+}
+.todo-input {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  height: 30px;
+  width: 200px;
+}
+.todo-add {
+  margin-left: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  height: 33px;
+  width: 100px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.li {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.delete {
+  background: rgba(255, 255, 255, 0.15);
+}
